@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Senias"
+rootProject.name = "SENIAS"
 include(":app")
  
