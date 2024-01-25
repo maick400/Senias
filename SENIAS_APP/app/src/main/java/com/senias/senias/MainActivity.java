@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     private void openCamera() {
         CameraManager manager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
         try {
-            cameraId = manager.getCameraIdList()[0];
+            cameraId = manager.getCameraIdList()[1];
             CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraId);
             previewSize = chooseOptimalSize(manager.getCameraIdList()[0], textureView.getWidth(), textureView.getHeight());
 
